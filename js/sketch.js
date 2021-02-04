@@ -14,12 +14,12 @@ function draw() {
 
   //styles for the rect
   stroke(100, 255, 80);
-  strokeWeight(20);
+  strokeWeight(5);
   fill(255, 208, 205);
-  rect(800, 300, 200, 300);
+  rect(800, 800, 800, 800);
 
   //styles for the point
-  fill(120);
+  fill(255,118,3);
   stroke(40, 200, 300);
   strokeWeight(10);
   //point is only x, y coordinate
