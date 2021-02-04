@@ -3,7 +3,7 @@ let shine;
 
 function preload(){
   img = createImg("image/waving.gif");
-  shine = loadFont("font/Shine.ttf")
+  shine = loadFont("font/shine.otf")
 
 }
 function setup() {
@@ -14,7 +14,7 @@ function setup() {
   print(random(300));
   image(img, 100, 100);
   background(171,208,205);
-  textFont(Shine);
+  textFont(shine);
   textSize(width/3);
   textAlign(CENTER, CENTER);
 }
