@@ -1,9 +1,16 @@
+let img;
+
+function preload(){
+  img = loadImage('image/waving.gif');
+
+}
 function setup() {
   // put setup code here to run once
   //create canvas 500 by 500 px
   createCanvas(windowWidth,windowHeight)
   rectMode(CENTER);
   print(random(300));
+  image(img, 0, 0);
 }
 
 function draw() {
@@ -13,11 +20,11 @@ function draw() {
   // put drawing code here to run in a loop
 
   //styles for the square
-  stroke(100, 255, 80);
-  strokeWeight(10);
-  fill(255, 208, 205);
+  stroke(51);
+  strokeWeight(4);
+  fill(218, 122, 185);
   square(30, 20, 100);
-  
+
   // style for the rect
   stroke(100, 255, 80);
   strokeWeight(10);
