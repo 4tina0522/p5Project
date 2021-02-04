@@ -1,7 +1,9 @@
 let img;
+let shine;
 
 function preload(){
   img = createImg("image/waving.gif");
+  shine = loadFont("font/Shine.ttf")
 
 }
 function setup() {
@@ -12,6 +14,9 @@ function setup() {
   print(random(300));
   image(img, 100, 100);
   background(171,208,205);
+  textFont(Shine);
+  textSize(width/3);
+  textAlign(CENTER, CENTER);
 }
 
 function draw() {
@@ -25,12 +30,6 @@ function draw() {
   fill(218, 122, 185);
   square(300, 200, 300);
 
-  // style for the rect
-  stroke(100, 255, 80);
-  strokeWeight(10);
-  fill(255, 208, 205);
-  rect(800, 300, 200, 300);
-
   //styles for the point
   fill(255,118,3);
   stroke(40, 200, 300);
@@ -38,6 +37,13 @@ function draw() {
   //point is only x, y coordinate
   point(mouseX, mouseY);
   print(mouseX);
+
+  //styles for the textFont
+  background(0);
+  let time = millis();
+  rotateX(time / 1000);
+  rotateZ(time / 1234);
+  text("Hello", 0, 0);
 
   img.position(300, 400)
 }
