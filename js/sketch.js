@@ -3,7 +3,7 @@ let waving;
 let sitting;
 
 function preload(){
-  ahyeah = loadimage("image/ahyeah.png");
+  ahyeah = loadimage('image/ahyeah.png');
   waving = loadimage("image/waving.gif");
   sitting = loadimage("image/sitting.gif");
 }
@@ -12,6 +12,7 @@ function setup() {
   //create canvas 500 by 500 px
   createCanvas(windowWidth,windowHeight)
   background(171,208,205)
+  image(ahyeah, 30, 30);
 }
 
 
