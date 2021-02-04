@@ -12,7 +12,13 @@ function draw() {
   noStroke();
   // put drawing code here to run in a loop
 
-  //styles for the rect
+  //styles for the square
+  stroke(100, 255, 80);
+  strokeWeight(10);
+  fill(255, 208, 205);
+  square(30, 20, 100);
+  
+  // style for the rect
   stroke(100, 255, 80);
   strokeWeight(10);
   fill(255, 208, 205);
