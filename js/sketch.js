@@ -39,7 +39,7 @@ function draw() {
   print(mouseX);
 
   //styles for the textFont
-  background(51);
+  background(0);
   let time = millis();
   rotateX(time / 1000);
   rotateZ(time / 1234);
