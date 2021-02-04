@@ -14,6 +14,9 @@ function setup() {
 }
 
 function draw() {
+  textsize(32);
+  text("Hello", 10, 30);
+  fill(0, 102, 153);
   background(171,208,205);
   smooth();
   noStroke();
