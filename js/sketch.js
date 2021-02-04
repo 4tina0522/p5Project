@@ -12,8 +12,6 @@ function setup() {
   //create canvas 500 by 500 px
   createCanvas(windowWidth,windowHeight)
   background(171,208,205)
-  //change
-  imageMode(CENTER)
 }
 
 
