@@ -11,11 +11,14 @@ function setup() {
   background(171,208,205);
   print(random(300));
   image(img, 100, 100);
+  textsize(32);
+  text('Hello', 10, 30);
+  fill(0, 102, 153);
 }
 
 function draw() {
   textsize(32);
-  text("Hello", 10, 30);
+  text('Hello', 10, 30);
   fill(0, 102, 153);
   background(171,208,205);
   smooth();
