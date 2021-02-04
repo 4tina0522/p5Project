@@ -6,7 +6,6 @@ function setup() {
   print(random(300));
 }
 
-
 function draw() {
   background(171,208,205)
   smooth();
@@ -14,8 +13,16 @@ function draw() {
   // put drawing code here to run in a loop
 
   //styles for the rect
-  stroke(200, 255, 80);
-  strokeWeight(50);
+  stroke(100, 255, 80);
+  strokeWeight(20);
   fill(255, 208, 205);
-  rect(400, 500, 300, 400);
+  rect(800, 300, 200, 300);
+
+  //styles for the point
+  fill(120);
+  stroke(40, 200, 300);
+  strokeWeight(10);
+  //point is only x, y coordinate
+  point(mouseX, mouseY);
+  print(mouseX);
 }
