@@ -14,9 +14,9 @@ function draw() {
 
   //styles for the rect
   stroke(100, 255, 80);
-  strokeWeight(5);
+  strokeWeight(10);
   fill(255, 208, 205);
-  rect(800, 800, 800, 800);
+  rect(800, 300, 200, 300);
 
   //styles for the point
   fill(255,118,3);
