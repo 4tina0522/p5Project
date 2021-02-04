@@ -13,14 +13,12 @@ function setup() {
   createCanvas(windowWidth,windowHeight)
   background(random(255), random(255), random(255))
   //change
-  rectMode(CENTER)
   imageMode(CENTER)
   print(random(300))
 }
 
 
 function draw() {
-  background(180, 40, 130);
   image(ahyeah, windowWidth/2, windowHeight/2)
 
   // put drawing code here to run in a loop
