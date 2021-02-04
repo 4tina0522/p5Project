@@ -6,13 +6,12 @@ function setup() {
   //change
   rectMode(CENTER)
 
-  print(random(50))
+  print(random(300))
 }
 
 
 function draw() {
   // put drawing code here to run in a loop
 
-  //print is only x, y coordinations
-  point(mouseX, mouseY)
+
 }
