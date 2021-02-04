@@ -3,9 +3,9 @@ let waving;
 let sitting;
 
 function preload(){
-  ahyeah = loadimage("images/ahyeah.png");
-  waving = loadimage("images/waving.gif");
-  sitting = loadimage("images/sitting.gif");
+  ahyeah = loadimage("image/ahyeah.png");
+  waving = loadimage("image/waving.gif");
+  sitting = loadimage("image/sitting.gif");
 }
 function setup() {
   // put setup code here to run once
@@ -18,6 +18,7 @@ function setup() {
 
 
 function draw() {
+  background(171,208,205)
   image(ahyeah, windowWidth/2, windowHeight/2)
 
   // put drawing code here to run in a loop
