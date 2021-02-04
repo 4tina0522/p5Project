@@ -20,6 +20,7 @@ function setup() {
 }
 
 function draw() {
+  background(171,208,205);
   smooth();
   noStroke();
   // put drawing code here to run in a loop
