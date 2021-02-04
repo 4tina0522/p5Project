@@ -11,10 +11,9 @@ function setup() {
   // put setup code here to run once
   //create canvas 500 by 500 px
   createCanvas(windowWidth,windowHeight)
-  background(random(255), random(255), random(255))
+  background(random(171), random(208), random(205))
   //change
   imageMode(CENTER)
-  print(random(300))
 }
 
 
