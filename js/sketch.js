@@ -18,8 +18,8 @@ function setup() {
 
 
 function draw() {
-  background(171,208,205)
   image(ahyeah, windowWidth/2, windowHeight/2)
+  background(171,208,205)
 
   // put drawing code here to run in a loop
 
