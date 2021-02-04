@@ -1,9 +1,7 @@
 let img;
-let shine;
 
 function preload(){
   img = createImg("image/waving.gif");
-  shine = loadFont("font/shine.otf");
 
 }
 function setup() {
@@ -13,9 +11,6 @@ function setup() {
   background(171,208,205);
   print(random(300));
   image(img, 100, 100);
-  textFont(shine);
-  textSize(width / 3);
-  textAlign(CENTER, CENTER);
 }
 
 function draw() {
@@ -37,13 +32,6 @@ function draw() {
   //point is only x, y coordinate
   point(mouseX, mouseY);
   print(mouseX);
-
-  //styles for the textFont
-  background(0);
-  let time = millis();
-  rotateX(time / 1000);
-  rotateZ(time / 1234);
-  text("Hello", 0, 0);
 
   img.position(300, 300)
 }
