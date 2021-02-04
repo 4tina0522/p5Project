@@ -40,11 +40,11 @@ function draw() {
   print(mouseX);
 
   //styles for the textFont
-  background(0);
+  background(100);
   let time = millis();
   rotateX(time / 1000);
   rotateZ(time / 1234);
-  text("Hello", 0, 0);
+  text("Hello", 50, 50);
 
   img.position(300, 400)
 }
