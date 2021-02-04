@@ -2,8 +2,8 @@ let img;
 
 function preload(){
   img = createImg("image/waving.gif");
-
 }
+
 function setup() {
   // put setup code here to run once
   //create canvas 500 by 500 px
@@ -11,9 +11,6 @@ function setup() {
   background(171,208,205);
   print(random(300));
   image(img, 100, 100);
-  textsize(32);
-  text('Hello', 10, 30);
-  fill(0, 102, 153);
 }
 
 function draw() {
