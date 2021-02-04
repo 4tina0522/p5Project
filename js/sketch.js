@@ -1,7 +1,7 @@
 let img;
 
 function preload(){
-  img = loadImage('image/waving.gif');
+  img = loadImage("image/waving.gif");
 
 }
 function setup() {
@@ -10,7 +10,7 @@ function setup() {
   createCanvas(windowWidth,windowHeight)
   rectMode(CENTER);
   print(random(300));
-  image(img, 0, 0);
+  image(img, 50, 50);
 }
 
 function draw() {
