@@ -3,19 +3,18 @@ let shine;
 
 function preload(){
   img = createImg("image/waving.gif");
-  shine = loadFont("font/shine.otf")
+  shine = loadFont("font/shine.otf");
 
 }
 function setup() {
   // put setup code here to run once
   //create canvas 500 by 500 px
   createCanvas(windowWidth,windowHeight)
-  rectMode(CENTER);
+  background(171,208,205);
   print(random(300));
   image(img, 100, 100);
-  background(171,208,205);
   textFont(shine);
-  textSize(width/3);
+  textSize(width / 3);
   textAlign(CENTER, CENTER);
 }
 
