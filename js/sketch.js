@@ -2,7 +2,8 @@ function setup() {
   // put setup code here to run once
   //create canvas 500 by 500 px
   createCanvas(windowWidth,windowHeight)
-  background(171,208,205)
+  rectMode(CENTER);
+  print(random(300));
 }
 
 
@@ -17,5 +18,4 @@ function draw() {
   strokeWeight(50);
   fill(255, 208, 205);
   rect(400, 500, 300, 400);
-
 }
