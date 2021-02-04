@@ -25,11 +25,6 @@ function draw() {
   fill(218, 122, 185);
   square(300, 200, 300);
 
-  stroke(51);
-  strokeWeight(4);
-  fill(218, 122, 185);
-  square(500, 200, 300);
-
   //styles for the point
   fill(255,118,3);
   stroke(40, 200, 300);
